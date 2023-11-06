@@ -1,0 +1,17 @@
+make_store,kroger,33000
+sell_item,kroger,pot_roast,5
+sell_item,kroger,corgi,15
+make_pilot,ffig8,Finneas,Fig,888-888-8888,890-12-3456,panam_10,33
+fly_drone,kroger,1,ffig8
+make_drone,kroger,1,40,1
+make_customer,aapple2,Alana,Apple,222-222-2222,4,100
+start_order,kroger,purchaseA,1,aapple2
+request_item,kroger,purchaseA,pot_roast,3,10
+request_item,kroger,purchaseA,corgi,2,20
+display_customers
+display_orders,kroger
+make_drone,kroger,2,100,3
+fly_drone,kroger,2,ffig8
+transfer_order,kroger,purchaseA,2
+display_orders,kroger
+purchase_order,kroger,purchaseA
